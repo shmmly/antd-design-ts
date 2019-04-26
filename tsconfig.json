@@ -26,7 +26,5 @@
   "exclude": [
 
   ],
-  "files": [
-    "./moduleTyping/typeing.d.ts"
-  ]
+
 }
