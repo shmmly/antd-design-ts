@@ -1,4 +1,15 @@
 import { createContext } from 'react'
 
-const LoginContext = createContext(null)
+interface LoginContext {
+  tabUtils: {}
+  form: any
+  updateActive: (item: any) => void
+}
+
+const loginContext:LoginContext = {
+    tabUtils:{},
+    form:{},
+    updateActive:()=>{}
+}
+const LoginContext = createContext(loginContext)
 export default LoginContext
